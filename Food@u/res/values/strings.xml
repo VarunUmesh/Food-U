@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food@U</string>
+    <string name="profile">Profile</string>
+    <string name="search_hint">Search food item, eatery, restaurant</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="action_settings">Logout</string>
+    <string name="action_register">Register Device</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_recommendation">Where do I eat next?</string>
+    <string name="e_mail">Email</string>
+    <string name="pass_word">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Login</string>
+    <string name="new_user">New User? Create an account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="food_veg">Vegetarian</string>
+    <string name="toggle_button">Toggle</string>
+    <string name="avg_budget">Avg. budget per meal $:</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="price_range">Price</string>
+    <string name="dollar">$</string>
+    <string name="title_activity_refine_search">RefineSearch</string>
+    <string name="vegan">Vegan</string>
+    <string name="toggle_button2">Toggle2</string>
+    <string name="gluten_free">Gluten Free</string>
+    <string name="toggle_button3">Toggle3</string>
+    <string name="title_activity_search_detail">SearchDetail</string>
+    <string name="about">Food@U helps you find and review restaurants within the University. It also gives you a list of free food events on the campus. In addition, it helps you make decisions easier by recommending restaurants based on your profile or by choosing multiple cuisines.</string>
+    <string name="title_activity_notification">Free Food</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_calender">Calender</string>
+    <string name="menu_copy">Copy</string>
+    <string name="title_activity_review">Write Review</string>
+    <string name="title_activity_user_review">User Review</string>
+    <string name="dollar_sm">$</string>
+    <string name="dollar_md">$$</string>
+    <string name="dollar_lg">$$$</string>
+    <string name="campus_umn">Campus</string>
+    <string name="east_bank">East Bank</string>
+    <string name="west_bank">West Bank</string>
+    <string name="saint_paul">Saint Paul</string>
+    <string name="food_constraints">Food Constraints</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="kosher">Kosher</string>
+    <string name="amenities">Amenities</string>
+    <string name="free_wifi">Free-Wifi</string>
+    <string name="parking">Free-Parking</string>
+    <string name="refine_search">Refine</string>
+    <string name="cancel_search">Cancel</string>
+    <string name="title_activity_user_recommendation">Profile Based Recommendation</string>
+    <string name="title_activity_cuisine_recommendation">Cuisine Recommendation</string>
+
+</resources>

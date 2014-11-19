@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_calender"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:showAsAction="always"
+        android:title="@string/menu_calender"/>
+    
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="always"
+        android:title="@string/menu_delete"/>
+    
+     <item
+        android:id="@+id/menu_share"
+        android:title="@string/menu_share"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share"/>
+     
+     <item
+        android:id="@+id/menu_copy"
+        android:title="@string/menu_copy"
+        android:showAsAction="always"
+        android:icon="@drawable/copy"/>
+     
+</menu>

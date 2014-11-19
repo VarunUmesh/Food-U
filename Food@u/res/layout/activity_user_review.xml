@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.example.foodu.UserReview"
+    
+    android:descendantFocusability="beforeDescendants"
+	    android:focusableInTouchMode="true" >
+
+   <TextView
+	        android:id="@+id/review_restaurant_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="River Road Cafe"
+	        android:textStyle="bold"
+	        android:textSize="18sp" />
+	   <TextView
+	       android:id="@+id/review_rest_address1"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_alignLeft="@+id/review_restaurant_name"
+	       android:layout_below="@+id/review_restaurant_name"
+	       android:text="614, Washington Ave SE," 
+	       android:textSize="14sp"/>
+	   <TextView
+	       android:id="@+id/review_rest_address2"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_alignLeft="@+id/review_rest_address1"
+	       android:layout_below="@+id/review_rest_address1"
+	       android:text="Minneapolis, MN 55414" />
+		<TableLayout
+	        android:id="@+id/review_table"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/review_rest_address2"
+	        android:layout_below="@+id/review_rest_address2"
+	        android:stretchColumns="*" 
+	        android:layout_marginTop="5dp">
+	        <TableRow
+	            android:id="@+id/review_tr1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border" >
+	            <TextView
+	                android:id="@+id/review_factors_tv"
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Factors"
+	                android:textStyle="bold" />
+	            <TextView
+	                android:id="@+id/review_stars_tv"
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Stars"
+	                android:textStyle="bold"
+	                android:minWidth="75dp" />
+	        </TableRow>
+	        <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border"
+	            android:minHeight="50dp"
+	            android:minWidth="75dp"
+	            >
+	            <TextView
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Food"
+	                android:textStyle="normal"
+	                android:minHeight="50dp"
+	                android:minWidth="75dp" />                
+	                <RatingBar 
+	                    android:id="@+id/food_stars"
+	                    android:numStars="5"
+	                    android:stepSize="1"
+	                    android:rating="0"
+	                    android:minHeight="50dp"
+	                    android:minWidth="75dp"
+	                    android:layout_gravity="center"
+	                    />
+	        </TableRow>
+	        <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border"
+	            android:minHeight="50dp"
+	            android:minWidth="75dp"
+	            >
+	            <TextView
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Ambience"
+	                android:textStyle="normal"
+	                android:minHeight="50dp"
+	                android:minWidth="75dp" />                
+	                <RatingBar 
+	                    android:id="@+id/ambience_stars"
+	                    android:numStars="5"
+	                    android:stepSize="1"
+	                    android:rating="0"
+	                    android:minHeight="50dp"
+	                    android:minWidth="75dp"
+	                    android:layout_gravity="center"
+	                    />
+	        </TableRow>
+			<TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border"
+	            android:minHeight="50dp"
+	            android:minWidth="75dp"
+	            >
+	            <TextView
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Economy"
+	                android:textStyle="normal"
+	                android:minHeight="50dp"
+	                android:minWidth="75dp" />                
+	                <RatingBar 
+	                    android:id="@+id/economical_stars"
+	                    android:numStars="5"
+	                    android:stepSize="1"
+	                    android:rating="0"
+	                    android:minHeight="50dp"
+	                    android:minWidth="75dp"
+	                    android:layout_gravity="center"
+	                    />
+	        </TableRow>
+	       <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border"
+	            android:minHeight="50dp"
+	            android:minWidth="75dp"
+	            >
+	            <TextView
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Cleanliness"
+	                android:textStyle="normal"
+	                android:minHeight="50dp"
+	                android:minWidth="75dp" />                
+	                <RatingBar 
+	                    android:id="@+id/hygiene_stars"
+	                    android:numStars="5"
+	                    android:stepSize="1"
+	                    android:rating="0"
+	                    android:minHeight="50dp"
+	                    android:minWidth="75dp"
+	                    android:layout_gravity="center"
+	                    />
+	        </TableRow>
+	       <TableRow
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border"
+	            android:minHeight="50dp"
+	            android:minWidth="75dp"
+	            >
+	            <TextView
+	                android:background="@drawable/border"
+	                android:gravity="center"
+	                android:text="Service"
+	                android:textStyle="normal"
+	                android:minHeight="50dp"
+	                android:minWidth="75dp" />                
+	                <RatingBar 
+	                    android:id="@+id/service_stars"
+	                    android:numStars="5"
+	                    android:stepSize="1"
+	                    android:rating="0"
+	                    android:minHeight="50dp"
+	                    android:minWidth="75dp"
+	                    android:layout_gravity="center"
+	                    />
+	        </TableRow>
+	    </TableLayout>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:id="@+id/et_comments"
+                android:layout_alignLeft="@+id/review_table"
+	       		android:layout_below="@+id/review_table"
+	       		android:hint="Comments (Optional)"
+	       		android:layout_marginTop="10dp"
+	       		android:inputType="textMultiLine"
+	       		android:lines="5"
+	       		android:maxLines="5"
+	       		android:scrollbars="vertical"
+	       		android:background="@drawable/border"
+	       		android:gravity="left">
+        </EditText>
+        <Button 
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	       	android:layout_below="@+id/et_comments"
+	       	android:text="Submit"
+	       	android:layout_marginTop="10dp"
+	       	android:layout_centerInParent="true"
+	       	android:layout_centerVertical="true"
+	       	android:layout_centerHorizontal="true"
+	       	style="@style/button_text"
+	       	android:id="@+id/btn_submit"
+            />
+
+</RelativeLayout>
+</ScrollView>

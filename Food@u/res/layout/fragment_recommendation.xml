@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.foodu.Recommendation$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/genericrecommendation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/recImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".70"
+            android:scaleType="fitStart"
+            android:src="@drawable/wrap" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".30"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$6"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/restau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A wrap at Subway\nCoffman Union\nGround floor" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/genericrecommendation"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/profile"
+            style="@style/button_text_gold"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile based recommendation" />
+       
+        <Button
+            android:id="@+id/cuisine"
+            style="@style/button_text_gold"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Cuisine based recommendation" />
+    </LinearLayout>
+
+</RelativeLayout>
